@@ -1,4 +1,4 @@
-bindAddr = "0.0.0.0"
+bindAddr = "45.76.240.205"
 bindPort = 7000
 #kcpBindPort = 7000
 quicBindPort = 7000
@@ -12,7 +12,7 @@ transport.tcpMuxKeepaliveInterval = 60
 transport.tcpKeepalive = 7200
 transport.tls.force = false
 
-webServer.addr = "0.0.0.0"
+webServer.addr = "45.76.240.205"
 webServer.port = 7500
 webServer.user = "admin"
 webServer.password = "admin"
@@ -30,6 +30,6 @@ allowPorts = [
   { start = 10001, end = 50000 }
 ]
 
-maxPortsPerClient = 8
+maxPortsPerClient = 32
 udpPacketSize = 1500
 natholeAnalysisDataReserveHours = 168
